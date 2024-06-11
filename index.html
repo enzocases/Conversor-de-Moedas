@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Conversor de Moedas</h1>
+        <div class="form">
+            <input type="number" id="mont" placeholder="Insira o valor">
+            <select id="conversao">
+                <option value="BRL">Real Brasileiro (BRL)</option>
+                <option value="USD">Dólar Americano (USD)</option>
+                <option value="EUR">Euro (EUR)</option>
+                <option value="GBP">Libra Esterlina (GBP)</option>
+                <option value="JPY">Iene Japonês (JPY)</option>
+            </select>
+            <select id="ocorrencia">
+                <option value="USD">Dólar Americano (USD)</option>
+                <option value="BRL">Real Brasileiro (BRL)</option>
+                <option value="EUR">Euro (EUR)</option>
+                <option value="GBP">Libra Esterlina (GBP)</option>
+                <option value="JPY">Iene Japonês (JPY)</option>
+            </select>
+            <button onclick="convertCurrency()">Converter</button>
+        </div>
+        <div id="result"></div>
+    </div>
+
+    <script src="conversao.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: dimgrey;
+}
+
+.container {
+    text-align: center;
+}
+
+.form {
+    margin-bottom: 20px;
+}
+
+input, select, button {
+    margin: 5px;
+    padding: 8px;
+}
+
+button {
+    cursor: pointer;
+}
+
+#result {
+    font-size: 18px;
+    font-weight: bold;
+}
